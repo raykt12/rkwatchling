@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Party</title>
+</head>
+<body>
+    <h1>Watch Party</h1>
+    <input type="file" id="videoUpload" />
+    <button id="uploadButton">Upload Video</button>
+    
+    <video id="videoPlayer" controls preload="auto" width="600" height="300">
+        Your browser does not support HTML5 video.
+    </video>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
